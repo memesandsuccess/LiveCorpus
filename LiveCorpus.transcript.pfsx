@@ -2,7 +2,7 @@
 <preferences version="1.1"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://www.mpi.nl/tools/elan/Prefs_v1.1.xsd">
     <pref key="FrameSize">
-        <Object class="java.awt.Dimension">1536,864</Object>
+        <Object class="java.awt.Dimension">1521,847</Object>
     </pref>
     <prefList key="HiddenPlayers">
         <String>file:///E:/мотина библиотека/лингвистика/ELAN/SVTV_ РУССКИЙ ПОГРОМ.mp4</String>
@@ -11,7 +11,7 @@
         <Boolean>true</Boolean>
     </pref>
     <pref key="LayoutManager.SelectedTabIndex">
-        <Int>2</Int>
+        <Int>1</Int>
     </pref>
     <pref key="LayoutManager.VisibleMultiTierViewer">
         <String>mpi.eudico.client.annotator.viewer.TimeLineViewer</String>
@@ -19,14 +19,31 @@
     <pref key="LayoutManager.ControlPanelWidth">
         <Int>125</Int>
     </pref>
+    <prefList key="Interlinear.VisibleTiers">
+        <String>@mp1984m-text</String>
+        <String>@ep1986m-text</String>
+        <String>@ms1985m-text</String>
+        <String>@mp1984m-gestures</String>
+        <String>@ep1986m-gestures</String>
+        <String>@ms1985m-gestures</String>
+        <String>@mp1984m-gestMeaning</String>
+        <String>@ep1986m-gestMeaning</String>
+        <String>@ms1985m-gestMeaning</String>
+        <String>@mp1984m-words</String>
+        <String>@ep1984m-words</String>
+        <String>@ms1985m-words</String>
+    </prefList>
     <pref key="TextViewer.TierName">
         <String>@mp1984m-text</String>
     </pref>
     <pref key="MultiTierViewer.ActiveTierName">
         <String>@mp1984m-text</String>
     </pref>
+    <pref key="TokenizeDialog.DestTier">
+        <String>@ms1985m-words</String>
+    </pref>
     <pref key="SelectionEndTime">
-        <Long>57820</Long>
+        <Long>46766</Long>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -41,6 +58,9 @@
         <String>@mp1984m-gestMeaning</String>
         <String>@ep1986m-gestMeaning</String>
         <String>@ms1985m-gestMeaning</String>
+        <String>@mp1984m-words</String>
+        <String>@ep1984m-words</String>
+        <String>@ms1985m-words</String>
     </prefList>
     <pref key="LayoutManager.CurrentMode">
         <Int>1</Int>
@@ -79,9 +99,9 @@
     </prefGroup>
     <prefGroup key="TierFonts"/>
     <prefList key="ExportTabDialog.selectedTiers">
-        <String>@mp1984m-text</String>
-        <String>@ep1986m-text</String>
-        <String>@ms1985m-text</String>
+        <String>@mp1984m-words</String>
+        <String>@ep1984m-words</String>
+        <String>@ms1985m-words</String>
     </prefList>
     <prefList key="CommentViewer.Columns.Order">
         <String>Время начала</String>
@@ -95,8 +115,14 @@
         <String>Дата создания</String>
         <String>Дата изменения</String>
     </prefList>
+    <pref key="ActiveRecognizerName">
+        <String>AAM-LR Phone level audio segmentation</String>
+    </pref>
     <pref key="FrameLocation">
-        <Object class="java.awt.Point">0,0</Object>
+        <Object class="java.awt.Point">0,17</Object>
+    </pref>
+    <pref key="Interlinear.SelectionOnly">
+        <Boolean>false</Boolean>
     </pref>
     <pref key="SubTitleViewer.TierName-1">
         <String>@mp1984m-text</String>
@@ -114,21 +140,43 @@
         <Object class="java.awt.Rectangle">618,282,300,300</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>55020</Long>
+        <Long>46622</Long>
+    </pref>
+    <prefGroup key="AAM-LR Phone level audio segmentation">
+        <pref key="base_url">
+            <String>http://lux17.mpi.nl/aamlr/</String>
+        </pref>
+    </prefGroup>
+    <pref key="TokenizeDialog.SourceTier">
+        <String>@ms1985m-text</String>
     </pref>
     <prefList key="MultiTierViewer.HiddenTiers"/>
+    <prefList key="Interlinear.TierOrder">
+        <String>@mp1984m-text</String>
+        <String>@ep1986m-text</String>
+        <String>@ms1985m-text</String>
+        <String>@mp1984m-gestures</String>
+        <String>@ep1986m-gestures</String>
+        <String>@ms1985m-gestures</String>
+        <String>@mp1984m-gestMeaning</String>
+        <String>@ep1986m-gestMeaning</String>
+        <String>@ms1985m-gestMeaning</String>
+        <String>@mp1984m-words</String>
+        <String>@ep1984m-words</String>
+        <String>@ms1985m-words</String>
+    </prefList>
     <pref key="TimeScaleBeginTime">
-        <Long>49560</Long>
+        <Long>0</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>53860</Long>
+        <Long>1110</Long>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="@ms1985m-text">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
         <pref key="@mp1984m-text">
             <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="@ms1985m-text">
+            <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="@mp1984m-gestures">
             <Object class="java.awt.Color">90,0,0</Object>
@@ -138,6 +186,9 @@
         </pref>
         <pref key="@ep1986m-text">
             <Object class="java.awt.Color">160,160,0</Object>
+        </pref>
+        <pref key="@mp1984m-words">
+            <Object class="java.awt.Color">160,0,0</Object>
         </pref>
         <pref key="@ms1985m-gestures">
             <Object class="java.awt.Color">90,160,160</Object>
@@ -153,6 +204,9 @@
         <String>@mp1984m-gestMeaning</String>
         <String>@ep1986m-gestMeaning</String>
         <String>@ms1985m-gestMeaning</String>
+        <String>@mp1984m-words</String>
+        <String>@ep1984m-words</String>
+        <String>@ms1985m-words</String>
     </prefList>
     <prefGroup key="TierHighlightColors"/>
     <pref key="LayoutManager.SplitPaneDividerLocation">
@@ -163,6 +217,9 @@
         <String>Получатель</String>
     </prefList>
     <prefList key="ExportTabDialog.HiddenTiers">
+        <String>@mp1984m-text</String>
+        <String>@ep1986m-text</String>
+        <String>@ms1985m-text</String>
         <String>@mp1984m-gestures</String>
         <String>@ep1986m-gestures</String>
         <String>@ms1985m-gestures</String>

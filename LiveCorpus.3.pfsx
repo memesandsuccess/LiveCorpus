@@ -43,7 +43,10 @@
         <String>@ms1985m-words</String>
     </pref>
     <pref key="SelectionEndTime">
-        <Long>46766</Long>
+        <Long>20980</Long>
+    </pref>
+    <pref key="LayoutManager.MediaAreaHeight">
+        <Int>323</Int>
     </pref>
     <pref key="ExportTabDialog.SelectTiersMode">
         <String>Tier</String>
@@ -140,7 +143,7 @@
         <Object class="java.awt.Rectangle">618,282,300,300</Object>
     </pref>
     <pref key="SelectionBeginTime">
-        <Long>46622</Long>
+        <Long>17380</Long>
     </pref>
     <prefGroup key="AAM-LR Phone level audio segmentation">
         <pref key="base_url">
@@ -169,32 +172,23 @@
         <Long>0</Long>
     </pref>
     <pref key="MediaTime">
-        <Long>9550</Long>
+        <Long>17380</Long>
     </pref>
     <prefGroup key="TierColors">
-        <pref key="@ms1985m-text">
-            <Object class="java.awt.Color">160,160,90</Object>
-        </pref>
         <pref key="@mp1984m-text">
             <Object class="java.awt.Color">160,0,0</Object>
+        </pref>
+        <pref key="@ms1985m-text">
+            <Object class="java.awt.Color">160,160,90</Object>
         </pref>
         <pref key="@mp1984m-gestures">
             <Object class="java.awt.Color">90,0,0</Object>
         </pref>
-        <pref key="@ms1985m-stress">
-            <Object class="java.awt.Color">160,90,90</Object>
-        </pref>
         <pref key="@ep1986m-gestures">
             <Object class="java.awt.Color">0,90,0</Object>
         </pref>
-        <pref key="@mp1984m-stress">
-            <Object class="java.awt.Color">0,160,160</Object>
-        </pref>
         <pref key="@ep1986m-text">
             <Object class="java.awt.Color">160,160,0</Object>
-        </pref>
-        <pref key="@ep1986m-stress">
-            <Object class="java.awt.Color">90,160,90</Object>
         </pref>
         <pref key="@mp1984m-words">
             <Object class="java.awt.Color">160,0,0</Object>
